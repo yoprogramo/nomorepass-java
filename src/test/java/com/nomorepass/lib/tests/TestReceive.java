@@ -24,7 +24,7 @@ public class TestReceive extends TestCase {
 			e.printStackTrace();
 			fail(e.getLocalizedMessage());
 		}
-		String url = res.replaceAll("nomorepass://", "https://nomorepass.com/getshared/");
+		String url = res.replaceAll("nomorepass://", "https://nomorepass.com/sendshared/");
 		try {
 		  Desktop desktop = java.awt.Desktop.getDesktop();
 		  URI oURL = new URI(url);
