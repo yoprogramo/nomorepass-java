@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.nomorepass.lib</groupId>
+  <groupId>com.nomorepass</groupId>
   <artifactId>nomorepass</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
@@ -18,6 +18,21 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+
+  <developers>
+    <developer>
+      <name>Jose Antonio Espinosa</name>
+      <email>espinosa@yoprogramo.com</email>
+      <organization>Nomorepass</organization>
+      <organizationUrl>https://nomorepass.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/yoprogramo/nomorepass-java.git</connection>
+    <developerConnection>scm:git:ssh://github.com:yoprogramo/nomorepass-java.git</developerConnection>
+    <url>https://github.com/yoprogramo/nomorepass-java/tree/master</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
